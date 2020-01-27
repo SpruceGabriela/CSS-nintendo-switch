@@ -1,0 +1,29 @@
+@media (max-width: 700px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .screen{
+        top: 80px;
+        position: absolute;
+        width: 350px;
+        height: 220px;
+    }
+
+    .left-control{
+        bottom: 310px;
+        position: absolute;
+        left: 50px;
+    }
+
+    .right-control{
+        top: 334px;
+        position: absolute;
+        right: 50px;
+    }
+
+    .left-control:hover,
+    .right-control:hover { margin-bottom: 0; }
+    
+}
