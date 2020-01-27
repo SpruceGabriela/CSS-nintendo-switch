@@ -114,6 +114,40 @@ body{
     align-items: center;
 }
 
+.arrow-down{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 9px solid white;
+}
+
+.arrow-up{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 9px solid white;
+}
+
+.arrow-left{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 9px solid white;
+    transform: rotate(30deg);
+}
+
+.arrow-right{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 9px solid white;
+    transform: rotate(90deg);
+}
+
 /* RIGHT CONTROLLER */
 
 .right-control{
@@ -186,5 +220,33 @@ body{
     height: 20px;
     width: 20px;
     border-radius: 100%;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-roof{
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 5px solid black;
+}
+
+.icon-square{
+    background-color: black;
+    height: 4px;
+    width: 8px;
+    display: flex;
+    margin-right: 1px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.door{
+    width: 2px;
+    height: 2px;
     background-color: rgb(49, 49, 49);
 }
