@@ -1,29 +1,45 @@
 @media (max-width: 700px){
     body{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-end;
     }
 
-    .screen{
-        top: 80px;
+    .screen {
+        top: 5%;
         position: absolute;
-        width: 350px;
-        height: 220px;
+        width: 90%;
+        height: 30%;
     }
 
     .left-control{
         bottom: 310px;
-        position: absolute;
         left: 50px;
     }
 
     .right-control{
         top: 334px;
-        position: absolute;
         right: 50px;
     }
 
     .left-control:hover,
     .right-control:hover { margin-bottom: 0; }
-    
+
+    .credits {
+        position: absolute;
+        bottom: 54%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p { line-height: 0; }
+}
+
+@media (max-width: 360px){
+    .credits { display: none; }
+
+    p { line-height: 0; }
 }
