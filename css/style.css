@@ -77,13 +77,65 @@ body{
     background-image: linear-gradient(to right, rgb(27, 27, 27), rgb(49, 49, 49));
 }
 
+.game-on{
+    background-color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-left {
+    height: 70%;
+    width: 30%;
+    border-radius: 20px 0px 0px 20px;
+    border: 6px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-right {
+    height: 70%;
+    width: 30%;
+    border-radius: 0px 20px 20px 0px;
+    border: 6px solid red;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logo-circle-red{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: red;
+    margin-top: 10px;
+}
+
+.logo-circle-white{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
 /* LEFT CONTROLLER */
 
 .left-control{
     height: 300px;
     width: 120px;
     background-color: lightseagreen;
-    border-radius: 40px 0 0px 40px;
+    border-radius: 60px 0 0px 60px;
     display: flex;
     flex-direction: column;
     transition: 0.5s;
@@ -120,7 +172,7 @@ body{
     height: 300px;
     width: 120px;
     background-color: red;
-    border-radius: 0 40px 40px 0;
+    border-radius: 0 60px 60px 0;
     display: flex;
     flex-direction: column;
     transition: 0.5s;
